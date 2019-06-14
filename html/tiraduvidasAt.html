@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tira dúvidas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link href="../css/modal.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script src="../jquery-3.4.1/jquery-3.4.1.min.js"></script>
+    <script src="../bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+</head>
+
+<body class="bodyTiraDuvidas">
+    <section>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav">
+            <p class="titlePage">Suporte return</p>
+            <div id="myLinks">
+                <a href="manualEditor.html">Manual do app</a>
+                <a href="../index.html">Página inicial</a>
+                <a href="enviarDuvida.html">Enviar dúvida</a>
+
+            </div>
+            <a href="javascript:void(0); " class="icon " onclick="myFunction() ">
+                <i class="fa fa-bars "></i>
+            </a>
+        </div>
+    </section>
+    <br<br><br><br><br><br>
+        <br>
+        <div class="container">
+            <h2></h2>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#transferencia">Sobre transferência bancaria?</button>
+            <div class="modal fade" id="transferencia" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Transferência bancaria</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Nosso sistema realiza sua transferência bancaria em até 48 horas..</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button style="background-color: red; color: whitesmoke" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#tempoCadastro">tempo para cadastro ser aceito?</button>
+            <div class="modal fade" id="tempoCadastro" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">Efetivação do cadastro</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>seu cadastro return pode ser aceito em até 24 horas</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button style="background-color: red; color: whitesmoke" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#limiteTransferencia">Limite de transferências?</button>
+            <div class="modal fade" id="limiteTransferencia" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Limite de transferências</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Nosso sistema não possui limite de transferências</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button style="background-color: red; color: whitesmoke" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#valorTransferencia">Menor valor de transferência?</button>
+            <div class="modal fade" id="valorTransferencia" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Menor valor de transferência</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>A menor quantidade em dinheiro que pode ser transferida é 20R$.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button style="background-color: red; color: whitesmoke" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#liberacaoCorrida">Tempo de liberação da corrida?</button>
+            <div class="modal fade" id="liberacaoCorrida" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Tempo de liberação da corrida</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>O tempo de liberação de corrida é até 24 horas, adicionando assim o dinheiro a sua conta return</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button style="background-color: red; color: whitesmoke" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mudancaCarro">Como mudo meu carro no app?</button>
+            <div class="modal fade" id="mudancaCarro" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Como mudar o carro no app?</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Você pode realizar essa mudança simplesmente nos mandando foto de sua CNH e documento do carro (CRLV).</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button style="background-color: red; color: whitesmoke" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

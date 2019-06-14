@@ -1,0 +1,268 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    border-style: solid;
+    width: 98%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: orange;
+    height: 59px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: orange
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav {
+    background-color: orangered;
+}
+
+.title {
+    font-size: 10pt;
+    width: 98%;
+    margin-left: 1vw;
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    font-size: 15pt;
+    color: black;
+    background-color: orange;
+    border-radius: 0px;
+}
+
+body {
+    height: 82%;
+    width: 100%;
+}
+
+p {
+    color: black;
+    justify-content: center;
+    justify-items: center;
+    font-size: 10pt;
+    text-align: justify;
+}
+
+p.titleManual {
+    font-size: 10pt;
+    color: orange;
+    font-style: oblique;
+}
+
+#labelNumber {
+    margin-top: 10%;
+}
+
+#supportIcon {
+    align-self: center;
+    margin-top: 80%;
+    width: 10%;
+}
+
+#labelNumber {
+    border-radius: 30px;
+    border-style: solid;
+    font-size: 20pt;
+    color: black;
+    background-color: greenyellow;
+}
+
+a.menuOption {
+    border-radius: 20px;
+    border-style: solid;
+    background-color: orange;
+}
+
+section {
+    align-items: center;
+}
+
+.driverImg {
+    width: 25;
+    height: 25;
+}
+
+.returnImg {
+    width: 25;
+    height: 25;
+}
+
+.answer {
+    background-color: orangered;
+}
+
+.question {
+    background-color: rgb(39, 22, 22);
+}
+
+.question {
+    width: 100%;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    color: black;
+}
+
+.answer {
+    width: 100%;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    color: black;
+}
+
+.btSearch {
+    font-size: 10pt;
+    width: 100px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.txtSearch {
+    width: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.imgNoticia {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.imgsNoticias {
+    width: 100%;
+    height: 10%;
+    background-color: orange;
+}
+
+.noticiaTextos {
+    position: relative;
+    width: 50%;
+    float: right;
+    margin-top: 0px;
+}
+
+p.pNoticia {
+    font-size: 20pt;
+}
+
+#noticias {
+    width: 100%;
+    height: 90%;
+}
+
+p.titlePage {
+    font-size: 15pt;
+    display: flex;
+    margin-top: 1vw;
+    color: whitesmoke;
+}
+
+p.indicieManual {
+    color: black;
+    text-justify: auto;
+}
+
+#logo {
+    width: 60%;
+}
+
+div.modal-header {
+    text-align: center;
+    display: flex;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.rounded {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.rounded:hover {
+    transform: rotateY(720deg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+p.modal-title {
+    text-align: center;
+    background: #4CAF50;
+}
+
+.bodyTiraDuvidas {
+    background: rgb(255, 196, 0);
+}
+
+.bodyIndex {
+    background-color: orange;
+}
+
+* {
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+}
+
+.containerIndex {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.btn {
+    font-size: 4vmin;
+}

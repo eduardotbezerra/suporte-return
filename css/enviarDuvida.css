@@ -1,0 +1,13 @@
+.rounded {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.rounded:hover {
+    transform: rotateY(720deg);
+    border-radius: 50%;
+    overflow: hidden;
+}
